@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch=".."
+           review="review.cyanogenmod.org" />
+
+  <remote  name="aicp"
+           fetch="https://github.com/"
+           review="gerrit.aicp-rom.com"
+           revision="refs/heads/n7.0" />
+
+  <remote name="slim"
+           fetch="https://github.com/"
+           review="gerrit.slimroms.net" />
+
+  <remote name="omni"
+           fetch="https://github.com/"
+           review="gerrit.omnirom.org" />
+
+  <remote name="du"
+           fetch="https://github.com/"
+           review="http://gerrit.dirtyunicorns.com"
+           revision="refs/heads/n" />
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-7.0.0_r14" />
+
+  <default revision="refs/heads/cm-14.0"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
+
+</manifest>
