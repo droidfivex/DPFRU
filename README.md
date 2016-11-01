@@ -1,5 +1,5 @@
-# DPFRP
-Q. What is DPFRP?  
+# DPFRU
+Q. What is DPFRU?  
 A. draft proposal for repo upload. include AICP-N remotes.
 
 ## how 2 Using
