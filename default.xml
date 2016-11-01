@@ -8,7 +8,7 @@
   <remote  name="aicp"
            fetch="https://github.com/"
            review="gerrit.aicp-rom.com"
-           revision="refs/heads/n7.0" />
+           revision="refs/heads/n7.1" />
 
   <remote name="slim"
            fetch="https://github.com/"
@@ -26,9 +26,9 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-7.0.0_r14" />
+           revision="refs/tags/android-7.1.0_r4" />
 
-  <default revision="refs/heads/cm-14.0"
+  <default revision="refs/heads/cm-14.1"
            remote="github"
            sync-c="true"
            sync-j="4" />
